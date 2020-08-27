@@ -1,5 +1,6 @@
 class Computer:
     quantity = 0
+
     def __init__(self, name, monitor, mouse, keyboard, price):
         Computer.quantity += 1
         self.__id = Computer.quantity
@@ -8,25 +9,25 @@ class Computer:
         self.__mouse = mouse
         self.__keyboard = keyboard
         self.__price = price
-    
+
     def getID(self):
         return self.__id
-        
+
     def getName(self):
         return self.__name
-    
+
     def setName(self, name):
         self.__name = name
-    
+
     def getPrice(self):
         return self.__price
-    
+
     def setPrice(self, price):
         self.__price = price
-    
+
     def getTotal(self):
-        return self.__price + self.__monitor.getPrice() + self.__keyboard.getPrice() + self.__mouse.getPrice()   
-    
+        return self.__price + self.__monitor.getPrice() + self.__keyboard.getPrice() + self.__mouse.getPrice()
+
     def __str__(self):
         return (
             f"Computer:\n"
