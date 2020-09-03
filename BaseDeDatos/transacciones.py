@@ -25,7 +25,7 @@ try:
 except Exception as ex:
     ## * Deshace los cambios previamente realizados
     conn.rollback()
-    print(f"Ocurrió un error en las transacciones: {e}")
+    print(f"Ocurrió un error en las transacciones: {ex}")
 
 cursor.close()
 conn.close()
