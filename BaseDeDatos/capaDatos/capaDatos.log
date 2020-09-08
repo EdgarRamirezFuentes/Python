@@ -1,0 +1,81 @@
+09/07/2020 01:24:32PM: INFO [conexion.py:3] -> Desde conexion
+09/07/2020 01:48:18PM: INFO [connection.py:31] -> <connection object at 0x7f703a618e80; dsn: 'user=edgar-dev password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+09/07/2020 01:54:12PM: DEBUG [connection.py:22] -> Database connected successfully
+09/07/2020 01:54:12PM: INFO [connection.py:32] -> Database disconnected successfully
+09/07/2020 01:54:46PM: ERROR [connection.py:25] -> There was an error trying to connect to the database: local variable 'ex' referenced before assignment
+09/07/2020 01:55:12PM: DEBUG [connection.py:22] -> Database connected successfully: <connection object at 0x7f6f88ef0e80; dsn: 'user=edgar-dev password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+09/07/2020 01:55:12PM: INFO [connection.py:32] -> Database disconnected successfully
+09/07/2020 02:23:01PM: INFO [connection.py:23] -> Database connected successfully: <connection object at 0x7f06f9a99e80; dsn: 'user=edgar-dev password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+09/07/2020 02:23:01PM: INFO [connection.py:36] -> Cursor obtained successfully: <cursor object at 0x7f06f6d53220; closed: 0>
+09/07/2020 02:23:28PM: INFO [connection.py:23] -> Database connected successfully: <connection object at 0x7fc05873ce80; dsn: 'user=edgar-dev password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+09/07/2020 02:23:28PM: INFO [connection.py:36] -> Cursor obtained successfully: <cursor object at 0x7fc0559f6220; closed: 0>
+09/07/2020 02:23:28PM: INFO [connection.py:49] -> Cursor closed successfully
+09/07/2020 02:23:28PM: INFO [connection.py:55] -> Database connection closed successfully
+09/07/2020 08:01:53PM: INFO [Connection.py:23] -> Database connected successfully: <connection object at 0x7fdfa95ddaf0; dsn: 'user=edgar-dev password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+09/07/2020 08:01:53PM: INFO [Connection.py:36] -> Cursor obtained successfully: <cursor object at 0x7fdfa6b15310; closed: 0>
+09/07/2020 08:01:53PM: INFO [Connection.py:49] -> Cursor closed successfully
+09/07/2020 08:01:53PM: INFO [Connection.py:55] -> Database connection closed successfully
+09/07/2020 08:02:59PM: INFO [Connection.py:23] -> Database connected successfully: <connection object at 0x7fe8dbc6baf0; dsn: 'user=edgar-dev password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+09/07/2020 08:02:59PM: INFO [Connection.py:36] -> Cursor obtained successfully: <cursor object at 0x7fe8d91a3310; closed: 0>
+09/07/2020 08:03:25PM: INFO [Connection.py:23] -> Database connected successfully: <connection object at 0x7fcbea8dfaf0; dsn: 'user=edgar-dev password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+09/07/2020 08:03:25PM: INFO [Connection.py:36] -> Cursor obtained successfully: <cursor object at 0x7fcbe7db24f0; closed: 0>
+09/07/2020 08:03:51PM: INFO [Connection.py:23] -> Database connected successfully: <connection object at 0x7ffb1f900d50; dsn: 'user=edgar-dev password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+09/07/2020 08:03:51PM: INFO [Connection.py:36] -> Cursor obtained successfully: <cursor object at 0x7ffb1ce9a310; closed: 0>
+09/07/2020 08:04:27PM: INFO [Connection.py:23] -> Database connected successfully: <connection object at 0x7f950732eaf0; dsn: 'user=edgar-dev password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+09/07/2020 08:04:27PM: INFO [Connection.py:36] -> Cursor obtained successfully: <cursor object at 0x7f95048014f0; closed: 0>
+09/07/2020 08:04:27PM: DEBUG [PersonaDAO.py:14] -> b'SELECT * FROM persona ORDER BY id_persona'
+09/07/2020 08:05:10PM: INFO [Connection.py:23] -> Database connected successfully: <connection object at 0x7f6892784af0; dsn: 'user=edgar-dev password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+09/07/2020 08:05:10PM: INFO [Connection.py:36] -> Cursor obtained successfully: <cursor object at 0x7f688fc574f0; closed: 0>
+09/07/2020 08:05:10PM: DEBUG [PersonaDAO.py:14] -> b'SELECT * FROM persona ORDER BY id_persona'
+09/07/2020 08:05:10PM: INFO [Connection.py:49] -> Cursor closed successfully
+09/07/2020 08:05:10PM: INFO [Connection.py:55] -> Database connection closed successfully
+09/07/2020 09:13:32PM: INFO [Connection.py:23] -> Database connected successfully: <connection object at 0x7f7e0b12ee80; dsn: 'user=edgar-dev password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+09/07/2020 09:13:32PM: INFO [Connection.py:36] -> Cursor obtained successfully: <cursor object at 0x7f7e083f04f0; closed: 0>
+09/07/2020 09:13:32PM: DEBUG [PersonaDAO.py:28] -> b'INSERT INTO persona (nombre_persona, email_persona) VALUES(%s,%s)'
+09/07/2020 09:13:32PM: ERROR [PersonaDAO.py:34] -> There was an error trying to insert something into the dabase: {ex}
+09/07/2020 09:13:32PM: INFO [Connection.py:49] -> Cursor closed successfully
+09/07/2020 09:13:32PM: INFO [Connection.py:55] -> Database connection closed successfully
+09/07/2020 09:13:32PM: DEBUG [PersonaDAO.py:42] -> Inserted rows: None
+09/07/2020 09:15:19PM: INFO [Connection.py:23] -> Database connected successfully: <connection object at 0x7f2b04346e80; dsn: 'user=edgar-dev password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+09/07/2020 09:15:19PM: INFO [Connection.py:36] -> Cursor obtained successfully: <cursor object at 0x7f2b016084f0; closed: 0>
+09/07/2020 09:15:19PM: DEBUG [PersonaDAO.py:28] -> b'INSERT INTO persona (nombre_persona, email_persona) VALUES(%s,%s)'
+09/07/2020 09:15:19PM: ERROR [PersonaDAO.py:34] -> There was an error trying to insert something into the dabase: {ex}
+09/07/2020 09:15:19PM: INFO [Connection.py:49] -> Cursor closed successfully
+09/07/2020 09:15:19PM: INFO [Connection.py:55] -> Database connection closed successfully
+09/07/2020 09:15:19PM: DEBUG [PersonaDAO.py:42] -> Inserted rows: None
+09/07/2020 09:17:29PM: INFO [Connection.py:23] -> Database connected successfully: <connection object at 0x7f288bc76e80; dsn: 'user=edgar-dev password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+09/07/2020 09:17:29PM: INFO [Connection.py:36] -> Cursor obtained successfully: <cursor object at 0x7f2888f384f0; closed: 0>
+09/07/2020 09:17:29PM: DEBUG [PersonaDAO.py:28] -> b'INSERT INTO persona (nombre_persona, email_persona) VALUES(%s,%s)'
+09/07/2020 09:17:29PM: ERROR [PersonaDAO.py:34] -> There was an error trying to insert something into the dabase: 'psycopg2.extensions.cursor' object has no attribute 'commit'
+09/07/2020 09:17:29PM: INFO [Connection.py:49] -> Cursor closed successfully
+09/07/2020 09:17:29PM: INFO [Connection.py:55] -> Database connection closed successfully
+09/07/2020 09:17:29PM: DEBUG [PersonaDAO.py:42] -> Inserted rows: None
+09/07/2020 09:18:00PM: INFO [Connection.py:23] -> Database connected successfully: <connection object at 0x7fc7101c8e80; dsn: 'user=edgar-dev password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+09/07/2020 09:18:00PM: INFO [Connection.py:36] -> Cursor obtained successfully: <cursor object at 0x7fc70d4894f0; closed: 0>
+09/07/2020 09:18:00PM: DEBUG [PersonaDAO.py:28] -> b'INSERT INTO persona (nombre_persona, email_persona) VALUES(%s,%s)'
+09/07/2020 09:18:00PM: INFO [Connection.py:49] -> Cursor closed successfully
+09/07/2020 09:18:00PM: INFO [Connection.py:55] -> Database connection closed successfully
+09/07/2020 09:18:00PM: DEBUG [PersonaDAO.py:42] -> Inserted rows: 1
+09/07/2020 09:20:09PM: INFO [Connection.py:23] -> Database connected successfully: <connection object at 0x7f56553dce80; dsn: 'user=edgar-dev password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+09/07/2020 09:20:09PM: INFO [Connection.py:36] -> Cursor obtained successfully: <cursor object at 0x7f565269d4f0; closed: 0>
+09/07/2020 09:20:09PM: DEBUG [PersonaDAO.py:15] -> b'SELECT * FROM persona ORDER BY id_persona'
+09/07/2020 09:20:09PM: INFO [Connection.py:49] -> Cursor closed successfully
+09/07/2020 09:20:09PM: INFO [Connection.py:55] -> Database connection closed successfully
+09/07/2020 09:41:35PM: INFO [Connection.py:23] -> Database connected successfully: <connection object at 0x7fed0ef6fe80; dsn: 'user=edgar-dev password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+09/07/2020 09:41:35PM: INFO [Connection.py:36] -> Cursor obtained successfully: <cursor object at 0x7fed0c22c4f0; closed: 0>
+09/07/2020 09:41:35PM: DEBUG [PersonaDAO.py:47] -> b'UPDATE persona set nombre_persona = %s, email_persona = %s WHERE id_persona = %s'
+09/07/2020 09:41:35PM: DEBUG [PersonaDAO.py:50] -> Updated row: ID: 1 Name: Edgar Ramírez Email: edgary@gmail.com 
+09/07/2020 09:41:35PM: INFO [Connection.py:49] -> Cursor closed successfully
+09/07/2020 09:41:35PM: INFO [Connection.py:55] -> Database connection closed successfully
+09/07/2020 09:44:08PM: INFO [Connection.py:23] -> Database connected successfully: <connection object at 0x7fa5f9e92e80; dsn: 'user=edgar-dev password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+09/07/2020 09:44:08PM: INFO [Connection.py:36] -> Cursor obtained successfully: <cursor object at 0x7fa5f714f4f0; closed: 0>
+09/07/2020 09:44:08PM: DEBUG [PersonaDAO.py:61] -> b'DELETE FROM persona WHERE id_persona = %s'
+09/07/2020 09:44:08PM: ERROR [PersonaDAO.py:68] -> There was an error trying to delete a row: 'int' object does not support indexing
+09/07/2020 09:44:08PM: INFO [Connection.py:49] -> Cursor closed successfully
+09/07/2020 09:44:08PM: INFO [Connection.py:55] -> Database connection closed successfully
+09/07/2020 09:44:46PM: INFO [Connection.py:23] -> Database connected successfully: <connection object at 0x7f716b91be80; dsn: 'user=edgar-dev password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+09/07/2020 09:44:46PM: INFO [Connection.py:36] -> Cursor obtained successfully: <cursor object at 0x7f7168bd94f0; closed: 0>
+09/07/2020 09:44:46PM: DEBUG [PersonaDAO.py:61] -> b'DELETE FROM persona WHERE id_persona = %s'
+09/07/2020 09:44:46PM: DEBUG [PersonaDAO.py:64] -> Deleted row: ID: 8 Name: Bruce Wayne Email: bruce@gmail.com 
+09/07/2020 09:44:46PM: INFO [Connection.py:49] -> Cursor closed successfully
+09/07/2020 09:44:46PM: INFO [Connection.py:55] -> Database connection closed successfully
